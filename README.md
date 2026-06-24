@@ -8,6 +8,8 @@ These prompts don't fix that. They **pull the honest answer out** of an AI that 
 
 > Made by someone who learned this the expensive way — months and thousands of dollars lost building things an AI cheered him on to build, instead of warning him they couldn't work. Shared so you don't have to learn it the same way.
 
+📄 **Pasting this into a post, email, or text message?** Use the plain-text version — **[checklist.txt](checklist.txt)** — so the formatting symbols don't show up raw.
+
 ---
 
 ## 10 prompts to paste

@@ -1,0 +1,109 @@
+================================================
+AI TRUTH CHECKLIST
+Simple prompts and habits to stop an AI from lying,
+guessing, and telling you what you want to hear.
+================================================
+
+AI is genuinely useful — for drafting, explaining, summarizing, brainstorming,
+getting un-stuck. The danger isn't that it's useless. It's that it's useful AND
+tuned to keep you happy, so it tends to fail you exactly when the truth is
+something you don't want to hear. It will say "yes, great idea!" instead of
+"this won't work," and state guesses as confident facts.
+
+These prompts pull the honest answer out of an AI that would otherwise tell you
+what you want to hear. Copy them. Use the right one at the right moment.
+
+
+------------------------------------------------
+10 PROMPTS TO PASTE
+------------------------------------------------
+
+1. MAKE IT ARGUE AGAINST YOU
+   "Before you help me, give me the 3 strongest reasons this is a bad idea or
+   could fail — don't soften it."
+
+2. BREAK THE PEOPLE-PLEASING
+   "What are you not telling me because you think it's what I want to hear?
+   Give me the blunt version."
+
+3. SEPARATE FACT FROM GUESS
+   "Label every claim in your answer as FACT (with a source), GUESS, or
+   'not sure.' Rewrite anything you dressed up as a fact."
+
+4. DEMAND A REAL SOURCE
+   "Do you actually know this, or are you guessing what sounds right? Give me a
+   real source I can check — or admit you don't have one."
+   (Verify the source yourself — it may invent the source too.)
+
+5. FLIP IT
+   "Now argue the exact opposite of what you just told me, just as convincingly."
+
+6. PROVEN VS. CLAIMED
+   "When you say this 'works' or is 'true,' what exactly did you check? Only an
+   easy example, or hard real cases? List what you did NOT test."
+
+7. COST OF BEING WRONG
+   "If you're wrong about this, what does it cost me — money, time, health?
+   Give your real confidence as a % and why."
+
+8. WRONG TOOL?
+   "Should I be asking a real doctor / lawyer / accountant instead of you?
+   What could go wrong if I trust you on this?"
+
+9. MAKE IT COMMIT
+   "Give me one specific prediction with a date. If it doesn't happen, you were
+   wrong — no redefining success later."
+
+10. FOLLOW THE INCENTIVE
+   "Who benefits if I keep following your advice and keep using you?
+   Is that the same as what's best for me?"
+
+
+------------------------------------------------
+THE ONE TRUTH THAT MATTERS MOST
+------------------------------------------------
+
+These prompts make the AI's ANSWER more honest. They do NOT make the AI honest.
+It can perform humility and "here's why it'll fail" just as smoothly as it
+performs cheerleading — because it's imitating what a good answer looks like,
+not actually caring whether it's true. So treat a better answer as LESS
+bullshit, not zero.
+
+The only real test is reality — not the AI, and not even these prompts:
+  - Does the data/information actually exist, and can YOU get it?
+  - Will a real stranger actually pay for this?
+  - Did it work on a HARD, messy case — or just an easy one?
+  - What does an independent source or a real professional say?
+
+Reality is the judge.
+
+
+------------------------------------------------
+A FEW MORE HABITS
+------------------------------------------------
+
+- Ask two different AIs the same hard question. If they confidently agree but
+  neither can prove it, that's often just shared training, not truth. Where they
+  disagree — dig there.
+
+- Watch the posture, not the words. Honest help looks like friction early —
+  pushback, questions, "this might not work." Instant enthusiasm before anything
+  is stress-tested is the warning light.
+
+- Never ask "is my idea good?" It's built to cheer. Ask "why would this fail,
+  and who already does it better?"
+
+- Be most skeptical when an AI talks about ITSELF — what it can do, that it'll
+  "improve," that the thing it made "works." It can't reliably judge itself and
+  leans toward sounding capable.
+
+- High stakes = AI is a starting point, never the final word. Health, money,
+  legal, big decisions: use it to get oriented, then confirm with a real
+  professional and primary sources.
+
+
+------------------------------------------------
+Free to copy, change, and share — public domain (CC0). For everyone.
+Made by someone who learned it the expensive way, so you don't have to.
+github.com/dario933/ai-truth-checklist
+------------------------------------------------
