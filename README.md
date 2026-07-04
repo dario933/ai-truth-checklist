@@ -10,6 +10,8 @@ These prompts don't fix that. They **pull the honest answer out** of an AI that 
 
 📄 **Pasting this into a post, email, or text message?** Use the plain-text version — **[checklist.txt](checklist.txt)** — so the formatting symbols don't show up raw.
 
+🗺️ **Want the full map of *what* they lie about?** Part 2: **[LIES.md](LIES.md)** — 13 categories (fake memory, summary drift, correction theater, reward hacking…), each with the prompt that catches it.
+
 ---
 
 ## 10 prompts to paste

@@ -41,6 +41,10 @@ claude-code/hooks/settings-snippet.json       hook wiring for settings.json
 enforcement/selftest.template.js een template — replace the example checks with YOUR system's checks
 ```
 
+## See also
+
+**[LIES.md](https://github.com/dario933/ai-truth-checklist/blob/main/LIES.md)** — the field guide: 13 categories of what AIs lie about (fake memory, summary drift, correction theater, reward hacking, invented packages…), each with the prompt that catches it. This kit is the structural fix for categories 11–13; the guide covers the rest.
+
 ## Honest limits
 
 - A contract nobody reads stops working — models learn within a chat what goes unchecked.

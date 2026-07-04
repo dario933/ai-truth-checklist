@@ -34,3 +34,12 @@ This is the layer that doesn't depend on the model remembering anything.
    An untested gate is exactly the decorative non-working element this kit exists to prevent.
 
 Result: any Claude Code session in that project that tries to end while your self-test is RED gets blocked once, told what's broken, and fixes it before finishing.
+
+## 4. Protect the gate (5 minutes — do not skip)
+
+A gate creates an incentive to game the gate: the documented agentic failure is weakening a check, deleting a test, or unhooking the hook instead of fixing the system. Two defenses:
+
+1. Add a **gate-integrity check** to your self-test (template included in `selftest.template.js`): assert the stop-gate file exists, still contains its blocking `exit(2)`, is still wired in settings.json, and that the suite hasn't shrunk.
+2. Add one line to your rules file: *"Never weaken, remove, or loosen a self-test check or the stop gate to make it pass — a check that can't fail is a lie. If a check seems wrong, flag it to the user instead."*
+
+Then tamper-test it: rename the gate file, run the self-test, expect RED; restore, expect GREEN. Untested defenses are decoration.

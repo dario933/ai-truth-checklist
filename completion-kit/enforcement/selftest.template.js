@@ -35,6 +35,18 @@ function check(name, critical, fn) {
 
   // await check('server_up', true, async () => { ... http GET, assert 200 + expected content ... });
   // await check('roundtrip', true, async () => { ... write probe, verify, clean up ... });
+
+  // STRONGLY RECOMMENDED — gate integrity. Any gate creates an incentive for
+  // the AI to weaken the gate instead of fixing the system (reward hacking).
+  // Make tampering loud: assert the stop-gate file still exists, still contains
+  // its blocking exit(2), still points at this selftest, is still wired in
+  // settings.json — and that this suite hasn't shrunk below its known size.
+  // await check('gate_integrity', true, async () => {
+  //   const g = fs.readFileSync('C:\\path\\to\\stop-gate.js', 'utf8');   // EDIT ME
+  //   if (!g.includes('exit(2)')) throw new Error('gate no longer blocks');
+  //   if (checks.length < EXPECTED_MINIMUM) throw new Error('selftest shrank');  // EDIT ME
+  //   return 'gate wired and unweakened';
+  // });
   // ────────────────────────────────────────────────────────────────────────
 
   const failCrit = checks.filter((c) => !c.pass && c.critical);
