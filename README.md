@@ -1,6 +1,6 @@
 # AI Truth Checklist
 
-**Simple prompts and habits to stop an AI from lying, guessing, and telling you what you want to hear.**
+**Simple prompts and habits to catch an AI lying, guessing, and telling you what you want to hear — and make it much harder to get away with.**
 
 AI is genuinely useful — for drafting, explaining, summarizing, brainstorming, getting un-stuck. The danger isn't that it's useless. It's that it's useful **and** tuned to keep you happy — so it tends to fail you exactly when the truth is something you don't want to hear. It will often say *"yes, great idea!"* instead of *"this won't work,"* and state guesses as confident facts.
 
