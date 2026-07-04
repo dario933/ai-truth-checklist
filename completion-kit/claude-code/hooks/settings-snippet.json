@@ -1,0 +1,17 @@
+{
+  "_comment": "Merge the hooks block into your project's .claude/settings.json (project-scoped — recommended) or ~/.claude/settings.json (all projects — only if your selftest makes sense everywhere). Adjust the path to wherever you put stop-gate.js.",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node C:/path/to/stop-gate.js",
+            "timeout": 90
+          }
+        ]
+      }
+    ]
+  }
+}

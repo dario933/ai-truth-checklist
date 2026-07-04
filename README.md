@@ -101,6 +101,20 @@ This repo also includes an optional **Claude Code skill** ([`claude-code-skill/`
 
 ---
 
+## The Completion Kit — for the *other* lie: "done!" when it isn't
+
+The prompts above fight an AI **making things up**. There's a second failure mode this repo now covers: an AI doing the visible 70% of a job, skipping the rest silently, and confidently declaring it finished. The named task works; everything it touched is stale; the "tested" claim means it ran once on an easy case.
+
+The **[`completion-kit/`](completion-kit/)** fixes most of that with structure instead of promises:
+
+- **A universal Completion Contract** ([`completion-kit/PROMPTS/completion-contract.md`](completion-kit/PROMPTS/completion-contract.md)) — paste into any AI's custom instructions. Its trick: every substantive answer must end with three required sections — ✅ **DONE & VERIFIED** (evidence only) / ⚠️ **NOT DONE** / 🔁 **CONSISTENCY CHECK**. Models silently skip obligations, but they reliably fill in required sections — and an empty ⚠️ section is a checkable lie.
+- **A truth-kernel prompt** distilling this repo's rules into one paste block, so both failure modes travel together.
+- **For agentic tools (Claude Code)**: a rules file, a `/completion-contract` audit skill, and the strongest layer — a **stop-gate hook** plus self-test template, so the AI *literally cannot end its turn* while your system's health checks fail. Install guide included; the gate ships as an EDIT-ME template and the instructions make you test both its paths before trusting it, because an untested gate is exactly the decoration this kit exists to prevent.
+
+Same honesty disclaimer as everything here: prompts raise the odds, they don't lock behavior. The gate layer is the part that doesn't depend on the AI remembering anything — and reading the ⚠️ sections yourself is still part of the mechanism.
+
+---
+
 ## License
 
 [CC0 1.0 Universal](LICENSE) — public domain. Copy it, change it, share it, use it commercially, no permission or attribution needed. It's for everyone.
